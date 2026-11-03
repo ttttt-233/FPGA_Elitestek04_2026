@@ -1,0 +1,31 @@
+{
+  "profile_id": 1,
+  "width": 800,
+  "height": 480,
+  "build_fps": 60,
+  "media": {
+    "photo_frames": 16,
+    "video_frames": 256,
+    "pre_frames": 320
+  },
+  "sensor": {
+    "row_start": 284,
+    "column_start": 260,
+    "exposure_lines": 480
+  },
+  "display": {
+    "pixel_clock_hz": 29760000,
+    "h_front": 24,
+    "h_sync": 72,
+    "h_back": 96,
+    "v_front": 3,
+    "v_sync": 7,
+    "v_back": 10,
+    "target_hz": 60
+  },
+  "pll": {
+    "pixel_divider": 100,
+    "pixel_2x_divider": 50,
+    "pixel_10x_divider": 10
+  }
+}

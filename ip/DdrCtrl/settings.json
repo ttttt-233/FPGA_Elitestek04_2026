@@ -1,0 +1,86 @@
+{
+    "args": [
+        "-o",
+        "DdrCtrl",
+        "--base_path",
+        "ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory_controller",
+            "name": "efx_ddr3_soft_controller",
+            "version": "5.14"
+        }
+    ],
+    "conf": {
+        "data_width": "1",
+        "freq": "384",
+        "col": "10",
+        "row": "16",
+        "bank": "3",
+        "burst_length": "8",
+        "read_burst_type": "1'b0",
+        "cas_latency": "5",
+        "dll_reset": "1",
+        "precharge_pd": "1'b1",
+        "dll_enable": "1'b1",
+        "output_drive_strength": "1'b0",
+        "al": "0",
+        "qoff": "1'b1",
+        "rtt": "3",
+        "asr": "1'b0",
+        "srt": "1'b0",
+        "dynamic_odt": "0",
+        "mpr_rf": "0",
+        "mpr": "1'b0",
+        "tREFI": "7800",
+        "arbiter_init": "1",
+        "arbiter_count": "4",
+        "write_leveling": "1'b0",
+        "tdqs": "1'b0",
+        "DDR3_DATA_RATE": "1",
+        "DDR3_MODE": "2",
+        "READ_ENABLE_PIPELINE": "7",
+        "PLL_OUT_SEL": "4"
+    },
+    "output": {
+        "external_source_source": [
+            "DdrCtrl\\DdrCtrl_tmpl.vhd",
+            "DdrCtrl\\DdrCtrl_define.svh",
+            "DdrCtrl\\DdrCtrl_tmpl.sv",
+            "DdrCtrl\\DdrCtrl.sv"
+        ],
+        "external_example_example": [
+            "DdrCtrl\\Ti180J484_devkit\\constraint.sdc",
+            "DdrCtrl\\Ti180J484_devkit\\memory_checker_axi.v",
+            "DdrCtrl\\Ti180J484_devkit\\example_top.v",
+            "DdrCtrl\\Ti180J484_devkit\\DdrCtrl.sv",
+            "DdrCtrl\\Ti180J484_devkit\\DdrCtrl_define.svh",
+            "DdrCtrl\\Ti180J484_devkit\\ti180_ddr3_controller.xml",
+            "DdrCtrl\\Ti180J484_devkit\\ti180_ddr3_controller.peri.xml"
+        ],
+        "external_script_generator": [],
+        "external_testbench_testbench": [
+            "DdrCtrl\\Testbench\\ddr3.v",
+            "DdrCtrl\\Testbench\\efx_ddr3_soft_controller_tb.v",
+            "DdrCtrl\\Testbench\\efx_iddr.v",
+            "DdrCtrl\\Testbench\\efx_oddr.v",
+            "DdrCtrl\\Testbench\\4096Mb_ddr3_parameters.vh",
+            "DdrCtrl\\Testbench\\efx_srl8.v",
+            "DdrCtrl\\Testbench\\axi_modelsim.do",
+            "DdrCtrl\\Testbench\\memory_checker_axi.v",
+            "DdrCtrl\\Testbench\\example_top.v",
+            "DdrCtrl\\Testbench\\ddr3_device_ID.vh",
+            "DdrCtrl\\Testbench\\ddr3_controller.bin",
+            "DdrCtrl\\Testbench\\ddr3_controller.vh",
+            "DdrCtrl\\Testbench\\DdrCtrl.sv",
+            "DdrCtrl\\Testbench\\DdrCtrl_define.svh"
+        ],
+        "external_testbench_modelsim": [
+            "DdrCtrl\\Testbench\\modelsim\\DdrCtrl.sv"
+        ]
+    },
+    "ooc_synthesis": {},
+    "sw_version": "2025.1.110",
+    "generated_date": "2026-10-11T08:49:54.309102+00:00"
+}

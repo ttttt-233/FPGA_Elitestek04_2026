@@ -1,0 +1,21 @@
+{
+  "profile_id": 0,
+  "width": 1280,
+  "height": 720,
+  "build_fps": 30,
+  "sensor": {
+    "row_start": 164,
+    "column_start": 20,
+    "exposure_lines": 720
+  },
+  "display": {
+    "pixel_clock_hz": 74400000,
+    "h_front": 110,
+    "h_sync": 40,
+    "h_back": 220,
+    "v_front": 5,
+    "v_sync": 5,
+    "v_back": 20,
+    "target_hz": 60
+  }
+}

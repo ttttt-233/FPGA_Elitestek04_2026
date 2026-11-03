@@ -1,0 +1,12 @@
+/build/
+/outflow/*
+!/outflow/profiles/
+/outflow/profiles/*
+!/outflow/profiles/race4_720p_quality.bit
+!/outflow/profiles/race4_480p_60.bit
+!/outflow/profiles/race4_dual_profile.hex
+/work_*/
+/.lock
+__pycache__/
+*.pyc
+*.log

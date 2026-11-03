@@ -1,0 +1,33 @@
+{
+  "system_clock_hz": 96000000,
+  "pixel_bits": 16,
+  "shape_targets": 6,
+  "sensor": {
+    "row_mirror": 1,
+    "column_mirror": 1,
+    "bayer_pattern": 1,
+    "hblank": 19,
+    "vblank": 25,
+    "clock_hz": 37333333.333333336
+  },
+  "isp": {
+    "r_gain_q8": 267,
+    "g_gain_q8": 256,
+    "b_gain_q8": 452,
+    "black_level": 0,
+    "gamma_enable": 1
+  },
+  "media": {
+    "photo_frames": 8,
+    "video_frames": 112,
+    "pre_frames": 128,
+    "fps": 30
+  },
+  "pll": {
+    "sys_feedback_divider": 31,
+    "pixel_divider": 40,
+    "pixel_2x_divider": 20,
+    "pixel_10x_divider": 4,
+    "camera_divider": 36
+  }
+}

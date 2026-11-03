@@ -1,0 +1,12 @@
+{
+  "device": "Ti60_MP",
+  "package": "Ti60F225",
+  "flash_model": "W25Q64WS",
+  "flash_bytes": 8388608,
+  "image_type": "internal",
+  "power_on_profile": 0,
+  "images": [
+    {"profile": "720p-quality", "cbsel": 0, "address": 0, "slot_bytes": 2097152},
+    {"profile": "480p-60", "cbsel": 1, "address": 2097152, "slot_bytes": 2097152}
+  ]
+}
